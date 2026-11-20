@@ -558,6 +558,12 @@
    "sharpe_3y": 0.93,
    "std_dev_3y": 0.97,
    "riskometer": "Moderate"
+  },
+  "103340": {
+   "aum_cr": 61558.0,
+   "sharpe_3y": 4.72,
+   "std_dev_3y": 0.13,
+   "riskometer": "Moderate"
   }
  }
 }
