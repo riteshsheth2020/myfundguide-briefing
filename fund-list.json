@@ -1,0 +1,572 @@
+[
+ {
+  "code": 122640,
+  "name": "Parag Parikh Flexi Cap Fund",
+  "amc": "PPFAS",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 101762,
+  "name": "HDFC Flexi Cap Fund",
+  "amc": "HDFC",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 112090,
+  "name": "Kotak Flexi Cap Fund",
+  "amc": "Kotak",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 148989,
+  "name": "ICICI Prudential Flexi Cap Fund",
+  "amc": "ICICI Prudential",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 103166,
+  "name": "Aditya Birla Sun Life Flexi Cap Fund",
+  "amc": "Aditya Birla Sun Life",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 103215,
+  "name": "SBI Flexicap Fund",
+  "amc": "SBI",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 100669,
+  "name": "UTI Flexi Cap Fund",
+  "amc": "UTI",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 100520,
+  "name": "Franklin India Flexi Cap Fund",
+  "amc": "Franklin Templeton",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 129048,
+  "name": "Motilal Oswal Flexi Cap Fund",
+  "amc": "Motilal Oswal",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 101922,
+  "name": "Canara Robeco Flexi Cap Fund",
+  "amc": "Canara Robeco",
+  "category": "Flexi Cap"
+ },
+ {
+  "code": 108466,
+  "name": "ICICI Prudential Large Cap Fund",
+  "amc": "ICICI Prudential",
+  "category": "Large Cap"
+ },
+ {
+  "code": 103504,
+  "name": "SBI Large Cap Fund",
+  "amc": "SBI",
+  "category": "Large Cap"
+ },
+ {
+  "code": 106235,
+  "name": "Nippon India Large Cap Fund",
+  "amc": "Nippon India",
+  "category": "Large Cap"
+ },
+ {
+  "code": 102000,
+  "name": "HDFC Large Cap Fund",
+  "amc": "HDFC",
+  "category": "Large Cap"
+ },
+ {
+  "code": 107578,
+  "name": "Mirae Asset Large Cap Fund",
+  "amc": "Mirae Asset",
+  "category": "Large Cap"
+ },
+ {
+  "code": 112277,
+  "name": "Axis Large Cap Fund",
+  "amc": "Axis",
+  "category": "Large Cap"
+ },
+ {
+  "code": 103174,
+  "name": "Aditya Birla Sun Life Large Cap Fund",
+  "amc": "Aditya Birla Sun Life",
+  "category": "Large Cap"
+ },
+ {
+  "code": 113221,
+  "name": "Canara Robeco Large Cap Fund",
+  "amc": "Canara Robeco",
+  "category": "Large Cap"
+ },
+ {
+  "code": 112932,
+  "name": "Mirae Asset Large & Midcap Fund",
+  "amc": "Mirae Asset",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 103024,
+  "name": "SBI Large & Midcap Fund",
+  "amc": "SBI",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 100349,
+  "name": "ICICI Prudential Large & Mid Cap Fund",
+  "amc": "ICICI Prudential",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 130496,
+  "name": "HDFC Large & Mid Cap Fund",
+  "amc": "HDFC",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 103234,
+  "name": "Kotak Large & Mid Cap Fund",
+  "amc": "Kotak",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 102920,
+  "name": "Canara Robeco Large and Mid Cap Fund",
+  "amc": "Canara Robeco",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 108596,
+  "name": "Bandhan Large & Mid Cap Fund",
+  "amc": "Bandhan",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 147701,
+  "name": "Motilal Oswal Large and Midcap Fund",
+  "amc": "Motilal Oswal",
+  "category": "Large & Mid Cap"
+ },
+ {
+  "code": 105758,
+  "name": "HDFC Mid Cap Fund",
+  "amc": "HDFC",
+  "category": "Mid Cap"
+ },
+ {
+  "code": 104908,
+  "name": "Kotak Mid Cap Fund",
+  "amc": "Kotak",
+  "category": "Mid Cap"
+ },
+ {
+  "code": 100377,
+  "name": "Nippon India Growth Mid Cap Fund",
+  "amc": "Nippon India",
+  "category": "Mid Cap"
+ },
+ {
+  "code": 114564,
+  "name": "Axis Midcap Fund",
+  "amc": "Axis",
+  "category": "Mid Cap"
+ },
+ {
+  "code": 102941,
+  "name": "SBI Midcap Fund",
+  "amc": "SBI",
+  "category": "Mid Cap"
+ },
+ {
+  "code": 113177,
+  "name": "Nippon India Small Cap Fund",
+  "amc": "Nippon India",
+  "category": "Small Cap"
+ },
+ {
+  "code": 130502,
+  "name": "HDFC Small Cap Fund",
+  "amc": "HDFC",
+  "category": "Small Cap"
+ },
+ {
+  "code": 125494,
+  "name": "SBI Small Cap Fund",
+  "amc": "SBI",
+  "category": "Small Cap"
+ },
+ {
+  "code": 100177,
+  "name": "Quant Small Cap Fund",
+  "amc": "Quant",
+  "category": "Small Cap"
+ },
+ {
+  "code": 147944,
+  "name": "Bandhan Small Cap Fund",
+  "amc": "Bandhan",
+  "category": "Small Cap"
+ },
+ {
+  "code": 125350,
+  "name": "Axis Small Cap Fund",
+  "amc": "Axis",
+  "category": "Small Cap"
+ },
+ {
+  "code": 105989,
+  "name": "DSP Small Cap Fund",
+  "amc": "DSP",
+  "category": "Small Cap"
+ },
+ {
+  "code": 102875,
+  "name": "Kotak Small Cap Fund",
+  "amc": "Kotak",
+  "category": "Small Cap"
+ },
+ {
+  "code": 101161,
+  "name": "Nippon India Multi Cap Fund",
+  "amc": "Nippon India",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 149886,
+  "name": "SBI MultiCap Fund",
+  "amc": "SBI",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 149182,
+  "name": "Kotak Multi Cap Fund",
+  "amc": "Kotak",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 149366,
+  "name": "HDFC Multi Cap Fund",
+  "amc": "HDFC",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 101228,
+  "name": "ICICI Prudential Multi Cap Fund",
+  "amc": "ICICI Prudential",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 149382,
+  "name": "Axis Multicap Fund",
+  "amc": "Axis",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 100631,
+  "name": "Quant Multi Cap Fund",
+  "amc": "Quant",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 141224,
+  "name": "Mahindra Manulife Multi Cap Fund",
+  "amc": "Mahindra Manulife",
+  "category": "Multi Cap"
+ },
+ {
+  "code": 112323,
+  "name": "Axis ELSS Tax Saver Fund",
+  "amc": "Axis",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 105628,
+  "name": "SBI ELSS Tax Saver Fund",
+  "amc": "SBI",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 135784,
+  "name": "Mirae Asset ELSS Tax Saver Fund",
+  "amc": "Mirae Asset",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 104772,
+  "name": "DSP ELSS Tax Saver Fund",
+  "amc": "DSP",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 101979,
+  "name": "HDFC ELSS Tax Saver Fund",
+  "amc": "HDFC",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 103196,
+  "name": "Nippon India ELSS Tax Saver Fund",
+  "amc": "Nippon India",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 100354,
+  "name": "ICICI Prudential ELSS Tax Saver Fund",
+  "amc": "ICICI Prudential",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 100175,
+  "name": "Quant ELSS Tax Saver Fund",
+  "amc": "Quant",
+  "category": "ELSS (Tax Saver)"
+ },
+ {
+  "code": 102885,
+  "name": "SBI Aggressive Hybrid Fund",
+  "amc": "SBI",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 100356,
+  "name": "ICICI Prudential Aggressive Hybrid Fund",
+  "amc": "ICICI Prudential",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 102948,
+  "name": "HDFC Aggressive Hybrid Fund",
+  "amc": "HDFC",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 100081,
+  "name": "DSP Aggressive Hybrid Fund",
+  "amc": "DSP",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 106166,
+  "name": "Canara Robeco Aggressive Hybrid Fund",
+  "amc": "Canara Robeco",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 134815,
+  "name": "Mirae Asset Aggressive Hybrid Fund",
+  "amc": "Mirae Asset",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 149599,
+  "name": "Sundaram Aggressive Hybrid Fund",
+  "amc": "Sundaram",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 133036,
+  "name": "Kotak Aggressive Hybrid Fund",
+  "amc": "Kotak",
+  "category": "Aggressive Hybrid"
+ },
+ {
+  "code": 100119,
+  "name": "HDFC Balanced Advantage Fund",
+  "amc": "HDFC",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 104685,
+  "name": "ICICI Prudential Balanced Advantage Fund",
+  "amc": "ICICI Prudential",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 149132,
+  "name": "SBI Balanced Advantage Fund",
+  "amc": "SBI",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 144333,
+  "name": "Kotak Balanced Advantage Fund",
+  "amc": "Kotak",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 112117,
+  "name": "Edelweiss Balanced Advantage Fund",
+  "amc": "Edelweiss",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 102846,
+  "name": "Nippon India Balanced Advantage Fund",
+  "amc": "Nippon India",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 131666,
+  "name": "Aditya Birla Sun Life Balanced Advantage Fund",
+  "amc": "Aditya Birla Sun Life",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 146007,
+  "name": "Tata Balanced Advantage Fund",
+  "amc": "Tata",
+  "category": "Balanced Advantage"
+ },
+ {
+  "code": 101144,
+  "name": "ICICI Prudential Multi Asset Allocation Fund",
+  "amc": "ICICI Prudential",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 103408,
+  "name": "SBI Multi Asset Allocation Fund",
+  "amc": "SBI",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 148459,
+  "name": "Nippon India Multi Asset Allocation Fund",
+  "amc": "Nippon India",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 152065,
+  "name": "Kotak Multi Asset Allocation Fund",
+  "amc": "Kotak",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 152053,
+  "name": "DSP Multi Asset Allocation Fund",
+  "amc": "DSP",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 151746,
+  "name": "WhiteOak Capital Multi Asset Allocation Fund",
+  "amc": "WhiteOak Capital",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 111599,
+  "name": "UTI Multi Asset Allocation Fund",
+  "amc": "UTI",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 101072,
+  "name": "Quant Multi Asset Allocation Fund",
+  "amc": "Quant",
+  "category": "Multi Asset"
+ },
+ {
+  "code": 105274,
+  "name": "SBI Liquid Fund",
+  "amc": "SBI",
+  "category": "Liquid"
+ },
+ {
+  "code": 100868,
+  "name": "HDFC Liquid Fund",
+  "amc": "HDFC",
+  "category": "Liquid"
+ },
+ {
+  "code": 112210,
+  "name": "Axis Liquid Fund",
+  "amc": "Axis",
+  "category": "Liquid"
+ },
+ {
+  "code": 100047,
+  "name": "Aditya Birla Sun Life Liquid Fund",
+  "amc": "Aditya Birla Sun Life",
+  "category": "Liquid"
+ },
+ {
+  "code": 100835,
+  "name": "Kotak Liquid Fund",
+  "amc": "Kotak",
+  "category": "Liquid"
+ },
+ {
+  "code": 100851,
+  "name": "Nippon India Liquid Fund",
+  "amc": "Nippon India",
+  "category": "Liquid"
+ },
+ {
+  "code": 102672,
+  "name": "Tata Liquid Fund",
+  "amc": "Tata",
+  "category": "Liquid"
+ },
+ {
+  "code": 103340,
+  "name": "ICICI Prudential Liquid Fund",
+  "amc": "ICICI Prudential",
+  "category": "Liquid"
+ },
+ {
+  "code": 101317,
+  "name": "Aditya Birla Sun Life Ultra Short Term Fund",
+  "amc": "Aditya Birla Sun Life",
+  "category": "Short & Ultra Short Duration"
+ },
+ {
+  "code": 101758,
+  "name": "ICICI Prudential Short Term Fund",
+  "amc": "ICICI Prudential",
+  "category": "Short & Ultra Short Duration"
+ },
+ {
+  "code": 101373,
+  "name": "Kotak Short Term Fund",
+  "amc": "Kotak",
+  "category": "Short & Ultra Short Duration"
+ },
+ {
+  "code": 145040,
+  "name": "HDFC Ultra Short Term Fund",
+  "amc": "HDFC",
+  "category": "Short & Ultra Short Duration"
+ },
+ {
+  "code": 115092,
+  "name": "ICICI Prudential Ultra Short Term Fund",
+  "amc": "ICICI Prudential",
+  "category": "Short & Ultra Short Duration"
+ },
+ {
+  "code": 113047,
+  "name": "HDFC Short Term Fund",
+  "amc": "HDFC",
+  "category": "Short & Ultra Short Duration"
+ },
+ {
+  "code": 102591,
+  "name": "Kotak Ultra Short Term Fund",
+  "amc": "Kotak",
+  "category": "Short & Ultra Short Duration"
+ },
+ {
+  "code": 106227,
+  "name": "SBI Short Term Fund",
+  "amc": "SBI",
+  "category": "Short & Ultra Short Duration"
+ }
+]

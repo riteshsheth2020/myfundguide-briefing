@@ -1,0 +1,596 @@
+{
+"period": "2026-10-31",
+"period_label": "October 2026",
+"published": "AMFI monthly report",
+"source_url": "https://www.amfiindia.com/research-information/amfi-monthly",
+"units": "₹ crore",
+"rows": [
+{
+"group": "Debt",
+"category": "10-year Constant Maturity Gilt Fund",
+"schemes": 5,
+"folios": 34204,
+"inflow": 17.8,
+"outflow": 116.69,
+"net": -98.89,
+"aum": 3722.7
+},
+{
+"group": "Debt",
+"category": "Banking and PSU Debt Fund",
+"schemes": 20,
+"folios": 250983,
+"inflow": 181.48,
+"outflow": 1419.48,
+"net": -1238.0,
+"aum": 75746.96
+},
+{
+"group": "Debt",
+"category": "Corporate Bond Fund",
+"schemes": 21,
+"folios": 570865,
+"inflow": 1380.5,
+"outflow": 4523.43,
+"net": -3142.93,
+"aum": 167952.4
+},
+{
+"group": "Debt",
+"category": "Credit Risk Fund",
+"schemes": 13,
+"folios": 231046,
+"inflow": 176.27,
+"outflow": 246.57,
+"net": -70.31,
+"aum": 22078.18
+},
+{
+"group": "Debt",
+"category": "Dynamic Term Fund",
+"schemes": 22,
+"folios": 209934,
+"inflow": 56.99,
+"outflow": 574.01,
+"net": -517.02,
+"aum": 28645.89
+},
+{
+"group": "Debt",
+"category": "Floating Interest Rates Fund",
+"schemes": 12,
+"folios": 187907,
+"inflow": 712.44,
+"outflow": 1660.75,
+"net": -948.31,
+"aum": 50180.18
+},
+{
+"group": "Debt",
+"category": "Gilt Fund",
+"schemes": 23,
+"folios": 186823,
+"inflow": 520.27,
+"outflow": 1156.44,
+"net": -636.17,
+"aum": 28710.1
+},
+{
+"group": "Debt",
+"category": "Liquid Fund",
+"schemes": 44,
+"folios": 4288627,
+"inflow": 580700.8,
+"outflow": 510167.05,
+"net": 70533.75,
+"aum": 699869.83
+},
+{
+"group": "Debt",
+"category": "Long Term Fund",
+"schemes": 11,
+"folios": 70412,
+"inflow": 207.4,
+"outflow": 383.17,
+"net": -175.77,
+"aum": 10611.03
+},
+{
+"group": "Debt",
+"category": "Medium Term Fund",
+"schemes": 13,
+"folios": 236993,
+"inflow": 158.6,
+"outflow": 352.87,
+"net": -194.26,
+"aum": 24718.67
+},
+{
+"group": "Debt",
+"category": "Medium to Long Term Fund",
+"schemes": 13,
+"folios": 100667,
+"inflow": 11.67,
+"outflow": 99.09,
+"net": -87.42,
+"aum": 9646.05
+},
+{
+"group": "Debt",
+"category": "Money Market Fund",
+"schemes": 27,
+"folios": 545792,
+"inflow": 68782.95,
+"outflow": 67281.01,
+"net": 1501.94,
+"aum": 293150.19
+},
+{
+"group": "Debt",
+"category": "Overnight Fund",
+"schemes": 40,
+"folios": 830505,
+"inflow": 728355.87,
+"outflow": 673462.82,
+"net": 54893.05,
+"aum": 139547.39
+},
+{
+"group": "Debt",
+"category": "Sectoral Fund (Debt)",
+"schemes": 2,
+"folios": 1501,
+"inflow": 1209.07,
+"outflow": 37.17,
+"net": 1171.9,
+"aum": 1869.07
+},
+{
+"group": "Debt",
+"category": "Short Term Fund",
+"schemes": 26,
+"folios": 574345,
+"inflow": 1306.32,
+"outflow": 3399.32,
+"net": -2093.0,
+"aum": 101687.53
+},
+{
+"group": "Debt",
+"category": "Ultra Short Term Fund",
+"schemes": 26,
+"folios": 788596,
+"inflow": 24703.82,
+"outflow": 26582.82,
+"net": -1879.0,
+"aum": 119206.06
+},
+{
+"group": "Debt",
+"category": "Ultra Short to Short Term Fund",
+"schemes": 25,
+"folios": 822049,
+"inflow": 6627.58,
+"outflow": 10209.25,
+"net": -3581.67,
+"aum": 103999.12
+},
+{
+"group": "Equity",
+"category": "Contra Fund",
+"schemes": 6,
+"folios": 4186323,
+"inflow": 2524.96,
+"outflow": 830.83,
+"net": 1694.13,
+"aum": 72471.7
+},
+{
+"group": "Equity",
+"category": "Dividend Yield Fund",
+"schemes": 12,
+"folios": 1179983,
+"inflow": 302.34,
+"outflow": 395.16,
+"net": -92.82,
+"aum": 30095.48
+},
+{
+"group": "Equity",
+"category": "ELSS - Tax Saver Fund",
+"schemes": 39,
+"folios": 16059746,
+"inflow": 964.29,
+"outflow": 1542.17,
+"net": -577.88,
+"aum": 228711.73
+},
+{
+"group": "Equity",
+"category": "Flexi Cap Fund",
+"schemes": 47,
+"folios": 25180630,
+"inflow": 9958.29,
+"outflow": 4978.33,
+"net": 4979.95,
+"aum": 591363.72
+},
+{
+"group": "Equity",
+"category": "Focused Fund",
+"schemes": 28,
+"folios": 5672287,
+"inflow": 2290.58,
+"outflow": 1365.23,
+"net": 925.35,
+"aum": 180369.09
+},
+{
+"group": "Equity",
+"category": "Large & Mid Cap Fund",
+"schemes": 36,
+"folios": 14602910,
+"inflow": 10996.93,
+"outflow": 2512.69,
+"net": 8484.23,
+"aum": 355311.15
+},
+{
+"group": "Equity",
+"category": "Large Cap Fund",
+"schemes": 35,
+"folios": 16929204,
+"inflow": 4338.74,
+"outflow": 3306.35,
+"net": 1032.39,
+"aum": 393541.43
+},
+{
+"group": "Equity",
+"category": "Mid Cap Fund",
+"schemes": 34,
+"folios": 26983457,
+"inflow": 9001.39,
+"outflow": 4108.77,
+"net": 4892.62,
+"aum": 503433.67
+},
+{
+"group": "Equity",
+"category": "Multi Cap Fund",
+"schemes": 33,
+"folios": 12155011,
+"inflow": 5023.61,
+"outflow": 2045.74,
+"net": 2977.86,
+"aum": 243406.37
+},
+{
+"group": "Equity",
+"category": "Sectoral Fund",
+"schemes": 60,
+"folios": 9640641,
+"inflow": 2491.1,
+"outflow": 1939.51,
+"net": 551.59,
+"aum": 147816.36
+},
+{
+"group": "Equity",
+"category": "Small Cap Fund",
+"schemes": 36,
+"folios": 30704519,
+"inflow": 10254.72,
+"outflow": 3847.22,
+"net": 6407.5,
+"aum": 440874.57
+},
+{
+"group": "Equity",
+"category": "Thematic Fund",
+"schemes": 194,
+"folios": 23667997,
+"inflow": 5999.57,
+"outflow": 4837.09,
+"net": 1162.48,
+"aum": 390452.71
+},
+{
+"group": "Equity",
+"category": "Value Fund",
+"schemes": 24,
+"folios": 4974517,
+"inflow": 1434.84,
+"outflow": 878.62,
+"net": 556.22,
+"aum": 136702.46
+},
+{
+"group": "Hybrid",
+"category": "Aggressive Hybrid Fund",
+"schemes": 30,
+"folios": 6483558,
+"inflow": 2544.34,
+"outflow": 2189.57,
+"net": 354.77,
+"aum": 253589.83
+},
+{
+"group": "Hybrid",
+"category": "Arbitrage Fund",
+"schemes": 40,
+"folios": 989861,
+"inflow": 24178.86,
+"outflow": 20249.97,
+"net": 3928.89,
+"aum": 297323.16
+},
+{
+"group": "Hybrid",
+"category": "Balanced Advantage / Dynamic Asset Allocation",
+"schemes": 37,
+"folios": 5782063,
+"inflow": 2452.6,
+"outflow": 3305.29,
+"net": -852.7,
+"aum": 313125.19
+},
+{
+"group": "Hybrid",
+"category": "Balanced Hybrid Fund",
+"schemes": 5,
+"folios": 2353436,
+"inflow": 105.71,
+"outflow": 55.09,
+"net": 50.63,
+"aum": 7509.71
+},
+{
+"group": "Hybrid",
+"category": "Conservative Hybrid Fund",
+"schemes": 18,
+"folios": 581289,
+"inflow": 190.72,
+"outflow": 540.17,
+"net": -349.45,
+"aum": 28830.97
+},
+{
+"group": "Hybrid",
+"category": "Equity Savings Fund",
+"schemes": 24,
+"folios": 543896,
+"inflow": 586.51,
+"outflow": 1719.26,
+"net": -1132.75,
+"aum": 47480.61
+},
+{
+"group": "Hybrid",
+"category": "Multi Asset Allocation Fund",
+"schemes": 37,
+"folios": 6246732,
+"inflow": 4054.79,
+"outflow": 2540.13,
+"net": 1514.66,
+"aum": 200774.83
+},
+{
+"group": "Solution oriented",
+"category": "Life Cycle Fund (5 years)",
+"schemes": 2,
+"folios": 7832,
+"inflow": 1.34,
+"outflow": 0.91,
+"net": 0.44,
+"aum": 52.14
+},
+{
+"group": "Solution oriented",
+"category": "Life Cycle Fund (10 years)",
+"schemes": 2,
+"folios": 12584,
+"inflow": 3.03,
+"outflow": 0.63,
+"net": 2.41,
+"aum": 51.43
+},
+{
+"group": "Solution oriented",
+"category": "Life Cycle Fund (15 years)",
+"schemes": 2,
+"folios": 12006,
+"inflow": 3.98,
+"outflow": 0.17,
+"net": 3.81,
+"aum": 72.94
+},
+{
+"group": "Solution oriented",
+"category": "Life Cycle Fund (30 years)",
+"schemes": 1,
+"folios": 5826,
+"inflow": 89.75,
+"outflow": 0.04,
+"net": 89.71,
+"aum": 84.81
+},
+{
+"group": "Other (retirement, children)",
+"category": "Retirement Fund",
+"schemes": 29,
+"folios": 3076953,
+"inflow": 196.92,
+"outflow": 165.52,
+"net": 31.4,
+"aum": 31276.54
+},
+{
+"group": "Other (retirement, children)",
+"category": "Children's Fund",
+"schemes": 11,
+"folios": 1093282,
+"inflow": 332.8,
+"outflow": 59.26,
+"net": 273.54,
+"aum": 23165.09
+},
+{
+"group": "Index funds",
+"category": "Equity Index Funds",
+"schemes": 287,
+"folios": 15825081,
+"inflow": 6294.95,
+"outflow": 4347.13,
+"net": 1947.81,
+"aum": 240654.56
+},
+{
+"group": "Index funds",
+"category": "Debt Index Funds",
+"schemes": 95,
+"folios": 189176,
+"inflow": 7002.52,
+"outflow": 5868.09,
+"net": 1134.42,
+"aum": 81652.62
+},
+{
+"group": "Index funds",
+"category": "Hybrid Index Funds",
+"schemes": 4,
+"folios": 13020,
+"inflow": 17.99,
+"outflow": 9.71,
+"net": 8.27,
+"aum": 81.64
+},
+{
+"group": "ETFs",
+"category": "Equity ETF",
+"schemes": 277,
+"folios": 19783263,
+"inflow": 16057.71,
+"outflow": 3083.93,
+"net": 12973.78,
+"aum": 806596.26
+},
+{
+"group": "ETFs",
+"category": "Debt ETF",
+"schemes": 39,
+"folios": 1728038,
+"inflow": 11224.5,
+"outflow": 10473.39,
+"net": 751.11,
+"aum": 94110.98
+},
+{
+"group": "ETFs",
+"category": "Gold ETF",
+"schemes": 26,
+"folios": 12741422,
+"inflow": 4451.34,
+"outflow": 977.32,
+"net": 3474.03,
+"aum": 179894.44
+},
+{
+"group": "ETFs",
+"category": "Silver ETF",
+"schemes": 19,
+"folios": 5353882,
+"inflow": 6406.78,
+"outflow": 3314.56,
+"net": 3092.22,
+"aum": 70220.72
+},
+{
+"group": "ETFs",
+"category": "Hybrid ETF",
+"schemes": 1,
+"folios": 883,
+"inflow": 1.92,
+"outflow": 0.0,
+"net": 1.92,
+"aum": 16.63
+},
+{
+"group": "ETFs",
+"category": "ETFs investing overseas",
+"schemes": 4,
+"folios": 730049,
+"inflow": 0.0,
+"outflow": 0.0,
+"net": 0.0,
+"aum": 6453.42
+},
+{
+"group": "Overseas fund of funds",
+"category": "Fund of Funds investing overseas",
+"schemes": 52,
+"folios": 1966713,
+"inflow": 166.67,
+"outflow": 536.78,
+"net": -370.11,
+"aum": 44678.23
+}
+],
+"trend": {
+"category": "Flexi Cap Fund",
+"points": [
+[
+"2025-10",
+8928.71
+],
+[
+"2025-11",
+8135.01
+],
+[
+"2025-12",
+10019.27
+],
+[
+"2026-01",
+7672.36
+],
+[
+"2026-02",
+6924.65
+],
+[
+"2026-03",
+10054.12
+],
+[
+"2026-04",
+10147.85
+],
+[
+"2026-05",
+5175.54
+],
+[
+"2026-06",
+5231.31
+],
+[
+"2026-07",
+4709.08
+],
+[
+"2026-08",
+5059.42
+],
+[
+"2026-09",
+6701.8
+],
+[
+"2026-10",
+4979.95
+]
+]
+}
+}
