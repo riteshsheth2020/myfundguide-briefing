@@ -1,0 +1,563 @@
+{
+ "as_of": "2026-11-20",
+ "returns_as_of": "2026-11-18",
+ "holdings_as_of": "2026-10-01",
+ "source": "InvestSights (AMC monthly factsheets; scheme-level AUM; Sharpe and std dev computed on the Direct plan)",
+ "funds": {
+  "122640": {
+   "aum_cr": 148429,
+   "sharpe_3y": 0.68,
+   "std_dev_3y": 9.92
+  },
+  "101762": {
+   "aum_cr": 110736,
+   "sharpe_3y": 0.77,
+   "std_dev_3y": 12.19,
+   "riskometer": "Very High"
+  },
+  "112090": {
+   "aum_cr": 50146,
+   "sharpe_3y": 0.43,
+   "std_dev_3y": 14.65
+  },
+  "148989": {
+   "aum_cr": 24100,
+   "sharpe_3y": 0.64,
+   "std_dev_3y": 14.41
+  },
+  "103166": {
+   "aum_cr": 23018,
+   "sharpe_3y": 0.68,
+   "std_dev_3y": 13.44
+  },
+  "103215": {
+   "aum_cr": 22897,
+   "sharpe_3y": 0.24,
+   "std_dev_3y": 12.65
+  },
+  "100669": {
+   "aum_cr": 20438,
+   "sharpe_3y": 0.25,
+   "std_dev_3y": 13.13
+  },
+  "100520": {
+   "aum_cr": 19598,
+   "sharpe_3y": 0.38,
+   "std_dev_3y": 13.59
+  },
+  "129048": {
+   "aum_cr": 13940,
+   "sharpe_3y": 0.66,
+   "std_dev_3y": 17.1
+  },
+  "101922": {
+   "aum_cr": 13615,
+   "sharpe_3y": 0.45,
+   "std_dev_3y": 13.73
+  },
+  "108466": {
+   "aum_cr": 80962,
+   "sharpe_3y": 0.39,
+   "std_dev_3y": 12.82,
+   "riskometer": "Very High"
+  },
+  "103504": {
+   "aum_cr": 55431,
+   "sharpe_3y": 0.32,
+   "std_dev_3y": 12.73,
+   "riskometer": "Very High"
+  },
+  "106235": {
+   "aum_cr": 54225,
+   "sharpe_3y": 0.43,
+   "std_dev_3y": 13.74,
+   "riskometer": "Very High"
+  },
+  "102000": {
+   "aum_cr": 40198,
+   "sharpe_3y": 0.28,
+   "std_dev_3y": 13.7,
+   "riskometer": "Very High"
+  },
+  "107578": {
+   "aum_cr": 38729,
+   "sharpe_3y": 0.29,
+   "std_dev_3y": 13.5,
+   "riskometer": "Very High"
+  },
+  "112277": {
+   "aum_cr": 31632,
+   "sharpe_3y": 0.33,
+   "std_dev_3y": 12.94,
+   "riskometer": "Very High"
+  },
+  "103174": {
+   "aum_cr": 30094,
+   "sharpe_3y": 0.35,
+   "std_dev_3y": 13.2,
+   "riskometer": "Very High"
+  },
+  "113221": {
+   "aum_cr": 17136,
+   "sharpe_3y": 0.4,
+   "std_dev_3y": 13.34,
+   "riskometer": "Very High"
+  },
+  "112932": {
+   "aum_cr": 45275,
+   "sharpe_3y": 0.41,
+   "std_dev_3y": 14.75,
+   "riskometer": "Very High"
+  },
+  "103024": {
+   "aum_cr": 42325,
+   "sharpe_3y": 0.49,
+   "std_dev_3y": 13.03,
+   "riskometer": "Very High"
+  },
+  "100349": {
+   "aum_cr": 32706,
+   "sharpe_3y": 0.55,
+   "std_dev_3y": 13.51,
+   "riskometer": "Very High"
+  },
+  "130496": {
+   "aum_cr": 30099,
+   "sharpe_3y": 0.45,
+   "std_dev_3y": 15.07,
+   "riskometer": "Very High"
+  },
+  "103234": {
+   "aum_cr": 27373,
+   "sharpe_3y": 0.49,
+   "std_dev_3y": 15.16,
+   "riskometer": "Very High"
+  },
+  "102920": {
+   "aum_cr": 26062,
+   "sharpe_3y": 0.46,
+   "std_dev_3y": 15.4,
+   "riskometer": "Very High"
+  },
+  "108596": {
+   "aum_cr": 19777,
+   "sharpe_3y": 0.71,
+   "std_dev_3y": 14.37,
+   "riskometer": "Very High"
+  },
+  "147701": {
+   "aum_cr": 18445,
+   "sharpe_3y": 0.73,
+   "std_dev_3y": 19.52,
+   "riskometer": "Very High"
+  },
+  "105758": {
+   "aum_cr": 105143,
+   "sharpe_3y": 0.65,
+   "std_dev_3y": 14.97,
+   "riskometer": "Very High"
+  },
+  "104908": {
+   "aum_cr": 55676,
+   "sharpe_3y": 0.56,
+   "std_dev_3y": 16.26,
+   "riskometer": "Very High"
+  },
+  "100377": {
+   "aum_cr": 50751,
+   "sharpe_3y": 0.63,
+   "std_dev_3y": 16.73,
+   "riskometer": "Very High"
+  },
+  "114564": {
+   "aum_cr": 34404,
+   "sharpe_3y": 0.67,
+   "std_dev_3y": 14.97,
+   "riskometer": "Very High"
+  },
+  "102941": {
+   "aum_cr": 24354,
+   "sharpe_3y": 0.27,
+   "std_dev_3y": 13.54,
+   "riskometer": "Very High"
+  },
+  "113177": {
+   "aum_cr": 78957,
+   "sharpe_3y": 0.44,
+   "std_dev_3y": 16.65,
+   "riskometer": "Very High"
+  },
+  "130502": {
+   "aum_cr": 41679,
+   "sharpe_3y": 0.26,
+   "std_dev_3y": 16.03,
+   "riskometer": "Very High"
+  },
+  "125494": {
+   "aum_cr": 39955,
+   "sharpe_3y": 0.33,
+   "std_dev_3y": 14.3,
+   "riskometer": "Very High"
+  },
+  "100177": {
+   "aum_cr": 34069,
+   "sharpe_3y": 0.57,
+   "std_dev_3y": 17.8,
+   "riskometer": "Very High"
+  },
+  "147944": {
+   "aum_cr": 31103,
+   "sharpe_3y": 0.79,
+   "std_dev_3y": 17.46,
+   "riskometer": "Very High"
+  },
+  "125350": {
+   "aum_cr": 30089,
+   "sharpe_3y": 0.49,
+   "std_dev_3y": 15.08,
+   "riskometer": "Very High"
+  },
+  "105989": {
+   "aum_cr": 20221,
+   "sharpe_3y": 0.54,
+   "std_dev_3y": 16.92,
+   "riskometer": "Very High"
+  },
+  "102875": {
+   "aum_cr": 15157,
+   "sharpe_3y": 0.34,
+   "std_dev_3y": 15.56,
+   "riskometer": "Very High"
+  },
+  "101161": {
+   "aum_cr": 55587,
+   "sharpe_3y": 0.45,
+   "std_dev_3y": 14.55,
+   "riskometer": "Very High"
+  },
+  "149886": {
+   "aum_cr": 24147,
+   "sharpe_3y": 0.47,
+   "std_dev_3y": 13.19,
+   "riskometer": "Very High"
+  },
+  "149182": {
+   "aum_cr": 22095,
+   "sharpe_3y": 0.61,
+   "std_dev_3y": 16.11,
+   "riskometer": "Very High"
+  },
+  "149366": {
+   "aum_cr": 20583,
+   "sharpe_3y": 0.34,
+   "std_dev_3y": 14.96,
+   "riskometer": "Very High"
+  },
+  "101228": {
+   "aum_cr": 18769,
+   "sharpe_3y": 0.52,
+   "std_dev_3y": 14.32,
+   "riskometer": "Very High"
+  },
+  "149382": {
+   "aum_cr": 10973,
+   "sharpe_3y": 0.82,
+   "std_dev_3y": 15.02,
+   "riskometer": "Very High"
+  },
+  "100631": {
+   "aum_cr": 7717,
+   "sharpe_3y": 0.29,
+   "std_dev_3y": 17.12,
+   "riskometer": "Very High"
+  },
+  "141224": {
+   "aum_cr": 7184,
+   "sharpe_3y": 0.65,
+   "std_dev_3y": 16.76,
+   "riskometer": "Very High"
+  },
+  "112323": {
+   "aum_cr": 32592,
+   "sharpe_3y": 0.39,
+   "std_dev_3y": 13.51,
+   "riskometer": "Very High"
+  },
+  "105628": {
+   "aum_cr": 32300,
+   "sharpe_3y": 0.53,
+   "std_dev_3y": 13.25,
+   "riskometer": "Very High"
+  },
+  "135784": {
+   "aum_cr": 26373,
+   "sharpe_3y": 0.45,
+   "std_dev_3y": 14.18,
+   "riskometer": "Very High"
+  },
+  "104772": {
+   "aum_cr": 16738,
+   "sharpe_3y": 0.51,
+   "std_dev_3y": 14.25,
+   "riskometer": "Very High"
+  },
+  "101979": {
+   "aum_cr": 16095,
+   "sharpe_3y": 0.54,
+   "std_dev_3y": 12.6,
+   "riskometer": "Very High"
+  },
+  "103196": {
+   "aum_cr": 14910,
+   "sharpe_3y": 0.46,
+   "std_dev_3y": 14.57,
+   "riskometer": "Very High"
+  },
+  "100354": {
+   "aum_cr": 14292,
+   "sharpe_3y": 0.39,
+   "std_dev_3y": 12.84,
+   "riskometer": "Very High"
+  },
+  "100175": {
+   "aum_cr": 13382,
+   "sharpe_3y": 0.54,
+   "std_dev_3y": 16.88,
+   "riskometer": "Very High"
+  },
+  "102885": {
+   "aum_cr": 88036,
+   "sharpe_3y": 0.59,
+   "std_dev_3y": 9.99,
+   "riskometer": "Very High"
+  },
+  "100356": {
+   "aum_cr": 52433,
+   "sharpe_3y": 0.64,
+   "std_dev_3y": 10.06,
+   "riskometer": "Very High"
+  },
+  "102948": {
+   "aum_cr": 22521,
+   "sharpe_3y": 0.12,
+   "std_dev_3y": 9.74,
+   "riskometer": "Very High"
+  },
+  "100081": {
+   "aum_cr": 11909,
+   "sharpe_3y": 0.42,
+   "std_dev_3y": 9.88,
+   "riskometer": "Very High"
+  },
+  "106166": {
+   "aum_cr": 11371,
+   "sharpe_3y": 0.48,
+   "std_dev_3y": 10.76,
+   "riskometer": "Very High"
+  },
+  "134815": {
+   "aum_cr": 9536,
+   "sharpe_3y": 0.51,
+   "std_dev_3y": 10.94,
+   "riskometer": "Very High"
+  },
+  "149599": {
+   "aum_cr": 9147,
+   "sharpe_3y": 0.3,
+   "std_dev_3y": 10.24,
+   "riskometer": "High"
+  },
+  "133036": {
+   "aum_cr": 7812,
+   "sharpe_3y": 0.52,
+   "std_dev_3y": 11.92,
+   "riskometer": "Very High"
+  },
+  "100119": {
+   "aum_cr": 107766,
+   "sharpe_3y": 0.48,
+   "std_dev_3y": 9.96,
+   "riskometer": "Very High"
+  },
+  "104685": {
+   "aum_cr": 74555,
+   "sharpe_3y": 0.61,
+   "std_dev_3y": 7.32,
+   "riskometer": "Very High"
+  },
+  "149132": {
+   "aum_cr": 42244,
+   "sharpe_3y": 0.48,
+   "std_dev_3y": 6.92,
+   "riskometer": "Very High"
+  },
+  "144333": {
+   "aum_cr": 16204,
+   "sharpe_3y": 0.41,
+   "std_dev_3y": 8.12,
+   "riskometer": "Very High"
+  },
+  "112117": {
+   "aum_cr": 13293,
+   "sharpe_3y": 0.54,
+   "std_dev_3y": 9.35,
+   "riskometer": "Very High"
+  },
+  "102846": {
+   "aum_cr": 9898,
+   "sharpe_3y": 0.52,
+   "std_dev_3y": 8.18,
+   "riskometer": "Very High"
+  },
+  "131666": {
+   "aum_cr": 9104,
+   "sharpe_3y": 0.67,
+   "std_dev_3y": 8.46,
+   "riskometer": "Very High"
+  },
+  "146007": {
+   "aum_cr": 8780,
+   "sharpe_3y": 0.23,
+   "std_dev_3y": 7.74,
+   "riskometer": "Very High"
+  },
+  "101144": {
+   "aum_cr": 86785,
+   "sharpe_3y": 0.78,
+   "std_dev_3y": 8.48,
+   "riskometer": "Very High"
+  },
+  "103408": {
+   "aum_cr": 20240,
+   "sharpe_3y": 0.89,
+   "std_dev_3y": 8.11,
+   "riskometer": "Very High"
+  },
+  "148459": {
+   "aum_cr": 16926,
+   "sharpe_3y": 1.13,
+   "std_dev_3y": 10.15,
+   "riskometer": "Very High"
+  },
+  "152065": {
+   "aum_cr": 12073,
+   "sharpe_3y": 0.85,
+   "std_dev_3y": 12.46,
+   "riskometer": "Very High"
+  },
+  "152053": {
+   "aum_cr": 10592,
+   "sharpe_3y": 1.25,
+   "std_dev_3y": 9.0,
+   "riskometer": "Very High"
+  },
+  "151746": {
+   "aum_cr": 8187,
+   "sharpe_3y": 1.73,
+   "std_dev_3y": 5.89,
+   "riskometer": "High"
+  },
+  "111599": {
+   "aum_cr": 6379,
+   "sharpe_3y": 0.73,
+   "std_dev_3y": 9.78,
+   "riskometer": "Very High"
+  },
+  "101072": {
+   "aum_cr": 6356,
+   "sharpe_3y": 1.22,
+   "std_dev_3y": 11.44,
+   "riskometer": "High"
+  },
+  "105274": {
+   "aum_cr": 84055,
+   "sharpe_3y": 5.27,
+   "std_dev_3y": 0.12,
+   "riskometer": "Moderate"
+  },
+  "100868": {
+   "aum_cr": 65870,
+   "sharpe_3y": 5.28,
+   "std_dev_3y": 0.13,
+   "riskometer": "Low to Moderate"
+  },
+  "112210": {
+   "aum_cr": 56438,
+   "sharpe_3y": 5.58,
+   "std_dev_3y": 0.13,
+   "riskometer": "Low to Moderate"
+  },
+  "100047": {
+   "aum_cr": 51838,
+   "sharpe_3y": 5.52,
+   "std_dev_3y": 0.13,
+   "riskometer": "Moderately High"
+  },
+  "100835": {
+   "aum_cr": 42746,
+   "sharpe_3y": 5.17,
+   "std_dev_3y": 0.16,
+   "riskometer": "Moderate"
+  },
+  "100851": {
+   "aum_cr": 41346,
+   "sharpe_3y": 5.43,
+   "std_dev_3y": 0.13,
+   "riskometer": "Moderate"
+  },
+  "102672": {
+   "aum_cr": 27603,
+   "sharpe_3y": 5.55,
+   "std_dev_3y": 0.13,
+   "riskometer": "Low to Moderate"
+  },
+  "101317": {
+   "aum_cr": 21467,
+   "sharpe_3y": 3.15,
+   "std_dev_3y": 0.43,
+   "riskometer": "Moderate"
+  },
+  "101758": {
+   "aum_cr": 19260,
+   "sharpe_3y": 1.28,
+   "std_dev_3y": 0.98,
+   "riskometer": "Low to Moderate"
+  },
+  "101373": {
+   "aum_cr": 17461,
+   "sharpe_3y": 1.03,
+   "std_dev_3y": 0.98,
+   "riskometer": "Moderate"
+  },
+  "145040": {
+   "aum_cr": 16678,
+   "sharpe_3y": 2.72,
+   "std_dev_3y": 0.4,
+   "riskometer": "Moderate"
+  },
+  "115092": {
+   "aum_cr": 15455,
+   "sharpe_3y": 3.26,
+   "std_dev_3y": 0.4,
+   "riskometer": "Moderate"
+  },
+  "113047": {
+   "aum_cr": 15081,
+   "sharpe_3y": 1.03,
+   "std_dev_3y": 0.96,
+   "riskometer": "Moderate"
+  },
+  "102591": {
+   "aum_cr": 14966,
+   "sharpe_3y": 2.73,
+   "std_dev_3y": 0.41,
+   "riskometer": "Moderate"
+  },
+  "106227": {
+   "aum_cr": 14001,
+   "sharpe_3y": 0.93,
+   "std_dev_3y": 0.97,
+   "riskometer": "Moderate"
+  }
+ }
+}
