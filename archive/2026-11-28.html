@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morning Market Briefing — Sat, 28 Nov 2026</title>
+<style>
+:root{--bg:#f7f5ef;--card:#ffffff;--ink:#1c2420;--mut:#5d6862;--line:#e2ddd0;--acc:#1f5c45;--gold:#a8791f;
+--fav:#1e7a4c;--favbg:#e3f3ea;--cau:#b23a2e;--caubg:#fbe9e6;--neu:#a86a12;--neubg:#fbf1dc;--gry:#77807b;--grybg:#eef0ee;
+--v:#1e7a4c;--s:#8a6a10;--l:#7a4fb0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121614;--card:#1b211e;--ink:#e7ece9;--mut:#9aa59f;--line:#2c3430;--acc:#6fcfa3;--gold:#d8b25c;
+--fav:#6fd39c;--favbg:#173327;--cau:#f08a7e;--caubg:#3a1f1b;--neu:#e5b45a;--neubg:#382c15;--gry:#9aa59f;--grybg:#262d29;--v:#6fd39c;--s:#e5c45a;--l:#c39cf0}}
+:root[data-theme="dark"]{--bg:#121614;--card:#1b211e;--ink:#e7ece9;--mut:#9aa59f;--line:#2c3430;--acc:#6fcfa3;--gold:#d8b25c;
+--fav:#6fd39c;--favbg:#173327;--cau:#f08a7e;--caubg:#3a1f1b;--neu:#e5b45a;--neubg:#382c15;--gry:#9aa59f;--grybg:#262d29;--v:#6fd39c;--s:#e5c45a;--l:#c39cf0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:16px}
+header{border-bottom:3px solid var(--acc);padding:8px 0 14px;margin-bottom:16px}
+header h1{margin:0;font-size:26px;letter-spacing:-.3px}
+header .sub{color:var(--mut);font-size:13px;margin-top:4px}
+h2{font-size:18px;margin:28px 0 10px;color:var(--acc);border-left:4px solid var(--gold);padding-left:10px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.k{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut)}
+.big{font-size:22px;font-weight:700;margin:4px 0}
+.muted{color:var(--mut);font-size:12.5px}
+.tblw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--grybg);font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:var(--mut)}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+td.src,td.thr{color:var(--mut);font-size:12px}
+tr.seg td{background:var(--grybg);font-weight:700;color:var(--acc)}
+.tg{display:inline-block;font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid;white-space:nowrap}
+.tg.v{color:var(--v);border-color:var(--v)}.tg.s{color:var(--s);border-color:var(--s)}.tg.l{color:var(--l);border-color:var(--l)}.tg.m{color:var(--cau);border-color:var(--cau)}
+.sc{display:inline-block;min-width:28px;text-align:center;font-weight:700;border-radius:6px;padding:1px 4px}
+.sc.p{background:var(--favbg);color:var(--fav)}.sc.n{background:var(--caubg);color:var(--cau)}.sc.z{background:var(--grybg);color:var(--mut)}.sc.g{color:var(--gry)}
+.band,.cv,.comp{display:inline-block;padding:2px 8px;border-radius:6px;font-weight:600;font-size:12.5px}
+.b-DeepValue,.b-Value{background:var(--favbg);color:var(--fav)}.b-Fair{background:var(--neubg);color:var(--neu)}.b-Expensive,.b-VeryExpensive{background:var(--caubg);color:var(--cau)}
+.comp{margin:6px 0 2px}
+.cf{background:var(--favbg);color:var(--fav)}.cc{background:var(--caubg);color:var(--cau)}.cn{background:var(--neubg);color:var(--neu)}.cg{background:var(--grybg);color:var(--gry)}
+.pend{font-size:11.5px;color:var(--l);margin-top:3px}.chg{font-size:11.5px;color:var(--acc);margin-top:3px;font-weight:600}
+.bd{font-size:11.5px;color:var(--neu);margin-top:3px}
+.bar{position:relative;height:12px;background:linear-gradient(90deg,var(--caubg) 0 33.5%,var(--neubg) 33.5% 66.5%,var(--favbg) 66.5% 100%);border-radius:6px;margin:10px 0 4px;border:1px solid var(--line)}
+.bar .dot{position:absolute;top:-4px;width:4px;height:18px;background:var(--ink);border-radius:2px}
+.bar .rng{position:absolute;top:2px;height:6px;background:var(--acc);opacity:.6;border-radius:3px}
+.scale{position:relative;height:16px;font-size:11px;color:var(--mut)}.scale span{position:absolute;transform:translateX(-50%);white-space:nowrap}.scale span:first-child{transform:none}.scale span:last-child{transform:translateX(-100%)}
+.pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:9px;background:var(--grybg);color:var(--mut);margin-left:4px}
+ul{margin:6px 0 0;padding-left:18px}li{margin:3px 0}
+.note{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:12px;font-size:13px}
+.interp{border-left:3px solid var(--gold);padding:8px 12px;background:var(--card);border-radius:0 8px 8px 0;margin:8px 0;font-size:13.5px}
+.interp b{color:var(--gold)}
+footer{margin-top:28px;padding:14px 0;border-top:1px solid var(--line);font-size:12.5px;color:var(--mut)}
+a{color:var(--acc)}
+@media (max-width:560px){header h1{font-size:21px}.big{font-size:19px}th,td{padding:7px 8px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Morning Market Briefing</h1>
+<div class="sub">Sat, 28 Nov 2026 · scores the NSE session of Fri, 27 Nov 2026 · prepared 06:00 IST · Ritesh Sheth CWM® · ARN-0209, AMFI REGISTERED MUTUAL FUND &amp; SIF DISTRIBUTOR</div>
+</header>
+
+<div class="grid">
+<div class="card"><div class="k">Risk verdict (confirmed)</div><div class="big">NEUTRAL</div>
+<div class="muted">Score +0.267 · 15/15 signals · confidence High · robust</div>
+<div class="muted">inputs: 5 verified · 9 single-source · 1 last close (liquidity row: RBI MMO 26 Nov)</div></div>
+<div class="card"><div class="k">Nifty 50 valuation band</div><div class="big">Value</div>
+<div class="muted">P/E 20.86 = 21.0th pctl (since 31 Mar 2021) · confidence High</div></div>
+<div class="card"><div class="k">Systemic liquidity</div><div class="big">Neutral</div>
+<div class="muted">3/3 components · confidence High · RBI MMO as on 26 Nov <span class="tg l">Last close · 26 Nov</span></div></div>
+<div class="card"><div class="k">Rate cycle phase</div><div class="big">Tightening</div>
+<div class="muted">3 evidence items · confirmed · repo 5.50% · MPC decision 4 Dec</div></div>
+</div>
+
+<h2>What changed since 26 Nov 2026</h2>
+<div class="card">
+<ul>
+<li><b>Confirmed changes (2nd consecutive reading):</b> Dynamic Bond, Medium/Long Duration, Gilt / Gilt 10Y CM, Target Maturity → <b>Cautious</b> (from Neutral). Conservative Hybrid → <b>Neutral</b> (from Lean Neutral). Driver: rate cycle Tightening + CPI driver −1 (Oct CPI 6.09%, up from 5.54%).</li>
+<li><b>Pending (need one more run):</b> Index – Nifty Next 50/Midcap → Neutral; Gold/Silver ETF &amp; FoF → Neutral.</li>
+<li><b>Lapsed pending changes</b> (today's reading matched the confirmed view): risk verdict RISK-ON; Mid Cap, Multi Cap, Aggressive Hybrid, Retirement, Children's → Favourable; Dividend Yield → Neutral; Credit Risk → Lean Neutral; Gold/Silver ETF → Cautious.</li>
+<li><b>Risk score:</b> +0.400 → +0.267 (-0.133, below the ±0.15 materiality line). Net points fell from +6 to +4: USD/INR 5-day change moved from −1.07% (+1) to −0.36% (0), and gold 5-day from −4.27% (+1) to +0.92% (0). The 26 Nov RISK-ON reading therefore lapsed.</li>
+<li><b>Material valuation moves (±5 pts):</b> nifty50 pe: 26.8 → 21.0 (-5.8 pts).</li>
+<li><b>Liquidity:</b> Neutral, unchanged. LAF surplus history (₹ cr, newest last): −10,773 · −10,773 · −61,242 · −62,687 (absorption shown as surplus +; these are deficits).</li>
+</ul>
+</div>
+
+<h2>Data quality</h2>
+<div class="card">
+<p style="margin:0 0 8px">Risk coverage <b>15/15 (100%)</b>. Engine inputs: <b>14 verified · 9 single-source · 3 last close · 1 missing</b> (NDTL → ₹1 lakh cr proxy threshold). No valuation is Unclassified. All five cycles have ≥2 evidence items.</p>
+<ul>
+<li><b>Last close:</b> RBI Money Market Operations as on 26 Nov (release of 27 Nov) — Section E net injection ₹62,687.20 cr and WACR 5.76%; net durable liquidity ₹7,02,107 cr as on 31 Oct.</li>
+<li><b>Single source:</b> 27 Nov FII/DII (InvestSights; 20–26 Nov confirmed by Tapetide); India 10Y (SquawkNews); US VIX (Wisevoter); DXY, Brent 19 Nov endpoint, gold (Longbridge); A/D (NSE bhavcopy; mainboard EQ ratio 1.45 also inside the neutral band); global overnight (AP / N Globe).</li>
+<li><b>Source note:</b> Brent 5-day uses settlement prices ($95.44 vs $91.98 = +3.76%). On Indian-hours futures quotes (PTI $97.19 vs $92.44) it would be +5.14%, which would score −1 and lower the risk score to +0.200 (still NEUTRAL).</li>
+<li><b>Not sourced:</b> GIFT Nifty level; NFO list for the week; Q2 FY27 GDP (not yet released at run time).</li>
+</ul>
+</div>
+
+<h2>Market snapshot · Fri, 27 Nov 2026</h2>
+<div class="tblw"><table>
+<tr><th>Item</th><th>Close</th><th>Change</th><th>Basis</th><th>Source</th></tr>
+<tr><td>Nifty 50</td><td class="num">25,607.20</td><td class="num">−277.30 (−1.07%)</td><td><span class="tg v">Verified</span></td><td class="src">NSE index file; NSE live feed</td></tr>
+<tr><td>Sensex</td><td class="num">83,339.26</td><td class="num">−989.33 (−1.17%)</td><td><span class="tg s">Single source</span></td><td class="src">PTI via Upstox</td></tr>
+<tr><td>Nifty Bank</td><td class="num">63,040.90</td><td class="num">−0.78%</td><td><span class="tg v">Verified</span></td><td class="src">NSE index file</td></tr>
+<tr><td>Nifty Midcap 150</td><td class="num">22,652.70</td><td class="num">+0.01%</td><td><span class="tg v">Verified</span></td><td class="src">NSE index file</td></tr>
+<tr><td>Nifty Smallcap 250</td><td class="num">17,829.90</td><td class="num">+0.53%</td><td><span class="tg v">Verified</span></td><td class="src">NSE index file</td></tr>
+<tr><td>India VIX</td><td class="num">16.55</td><td class="num">−1.72%</td><td><span class="tg v">Verified</span></td><td class="src">NSE index file (live feed 16.68)</td></tr>
+<tr><td>FII / DII net cash (27 Nov)</td><td class="num">+₹1,634 cr / −₹556 cr</td><td class="num">5-day: +₹27,938 / +₹1,473 cr</td><td><span class="tg s">Single source</span></td><td class="src">InvestSights (NSE provisional)</td></tr>
+<tr><td>USD/INR</td><td class="num">92.98</td><td class="num">−60 paise (rupee weaker)</td><td><span class="tg v">Verified</span></td><td class="src">PTI via Upstox, HDFC Sky, Telangana Today</td></tr>
+<tr><td>India 10Y G-Sec</td><td class="num">7.265%</td><td class="num">+2.9 bps</td><td><span class="tg s">Single source</span></td><td class="src">SquawkNews</td></tr>
+<tr><td>Brent (settle)</td><td class="num">$95.44</td><td class="num">−$1.13 (−1.2%); ~+3% w/w</td><td><span class="tg v">Verified</span></td><td class="src">Reuters via APA; The Circuitry</td></tr>
+<tr><td>Gold spot ($/oz)</td><td class="num">3,653.53</td><td class="num">+2.43%; +3.25% w/w</td><td><span class="tg s">Single source</span></td><td class="src">Longbridge (NY close)</td></tr>
+<tr><td>GIFT Nifty</td><td class="num">—</td><td class="num">—</td><td><span class="tg m">Missing</span></td><td class="src">No dated source found</td></tr>
+</table></div>
+<div class="card" style="margin-top:10px"><ul>
+<li>Nifty fell 1.07% while NSE breadth was positive: 2,069 advances vs 1,581 declines (all NSE stocks); mainboard 1,520 vs 1,046. Large-cap weight drove the fall; Midcap 150 flat, Smallcap 250 +0.53%.</li>
+<li>Sector spread: Defence +3.33%, Metal +1.40%, Chemicals +1.37%, Capital Goods +1.40%; IT −1.88%, NBFC −1.94%, Auto −1.48%, Financial Services −1.33%.</li>
+<li>Nifty 50 stocks: top falls Shriram Finance −3.99%, Bajaj Auto −3.36%, HCL Tech −3.03%; top gains BEL +1.72%, JSW Steel +1.40%, Titan +0.95%. 52-week highs 39, lows 43.</li>
+<li>Week: Nifty 50 25,800.60 (20 Nov) → 25,607.20 (27 Nov) = −0.75%.</li>
+</ul></div>
+
+<h2>Global overnight</h2>
+<div class="card"><ul>
+<li>US (shortened Black Friday session, vs Wednesday's close): S&amp;P 500 7,297.49 (+1.6%), Dow 50,774.94 (+1.18%), Nasdaq 24,129.50 (+2.31%). <span class="tg s">Single source</span> (N Globe; SPY +1.62% per StockTitan).</li>
+<li>Asia, 27 Nov: Nikkei 225 +2.0% to 58,628.59; Hang Seng +2.1% to 22,682.64; Shanghai +3.2%; Kospi +4.2% (AP).</li>
+<li>US VIX 26.36, −26.6% on the week; still above the 22 threshold. DXY 103.71 (103.81 a week earlier).</li>
+<li>Gold +2.43% on Friday after a 15-month low of $3,445.89 on 25 Nov; silver ~$44 (+6%).</li>
+<li>Oil: OPEC+ meets Sunday 29 Nov; Brent posted its first weekly gain in November (Reuters).</li>
+</ul></div>
+
+<h2>Valuation bands (NSE trailing P/E, P/B, dividend yield · 27 Nov close)</h2>
+<div class="tblw"><table>
+<tr><th>Index</th><th>Metric</th><th>Value</th><th>Basis</th><th>Percentile</th><th>Band</th><th>Baseline window</th></tr>
+<tr><td rowspan='3'><b>Nifty 50</b><div class='comp b-Value'>Value</div><div class='muted'>conf. High · 3/3 classified · 1 borderline</div></td><td>P/E</td><td class='num'>20.86</td><td><span class="tg v">Verified</span></td><td class='num'>21.0</td><td><span class='band b-Value'>Value</span></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 22.12</td></tr><tr><td>P/B</td><td class='num'>3.14</td><td><span class="tg v">Verified</span></td><td class='num'>13.1</td><td><span class='band b-Value'>Value</span></td><td class='src'>2023-09-29 → 2026-11-05 · n=769 · median 3.52</td></tr><tr><td>Div. yield %</td><td class='num'>1.33</td><td><span class="tg v">Verified</span></td><td class='num'>68.0 <span class='muted'>(DY: higher yield = cheaper, so expensiveness = 100 − pctl)</span></td><td><span class='band b-Fair'>Fair</span><div class='bd'>Borderline: Value / Fair boundary (32.0 expensiveness pctl)</div></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 1.28</td></tr><tr><td rowspan='3'><b>Nifty Midcap 150</b><div class='comp b-Fair'>Fair</div><div class='muted'>conf. High · 3/3 classified · 0 borderline</div></td><td>P/E</td><td class='num'>28.09</td><td><span class="tg v">Verified</span></td><td class='num'>39.8</td><td><span class='band b-Fair'>Fair</span></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 30.12</td></tr><tr><td>P/B</td><td class='num'>3.97</td><td><span class="tg v">Verified</span></td><td class='num'>43.3</td><td><span class='band b-Fair'>Fair</span></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 4.16</td></tr><tr><td>Div. yield %</td><td class='num'>0.92</td><td><span class="tg v">Verified</span></td><td class='num'>64.0 <span class='muted'>(DY: higher yield = cheaper, so expensiveness = 100 − pctl)</span></td><td><span class='band b-Fair'>Fair</span></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 0.86</td></tr><tr><td rowspan='3'><b>Nifty Smallcap 250</b><div class='comp b-Expensive'>Expensive</div><div class='muted'>conf. High · 3/3 classified · 1 borderline</div></td><td>P/E</td><td class='num'>32.22</td><td><span class="tg v">Verified</span></td><td class='num'>77.2</td><td><span class='band b-Expensive'>Expensive</span></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 28.9</td></tr><tr><td>P/B</td><td class='num'>3.44</td><td><span class="tg v">Verified</span></td><td class='num'>34.0</td><td><span class='band b-Fair'>Fair</span></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 3.6</td></tr><tr><td>Div. yield %</td><td class='num'>0.75</td><td><span class="tg v">Verified</span></td><td class='num'>30.0 <span class='muted'>(DY: higher yield = cheaper, so expensiveness = 100 − pctl)</span></td><td><span class='band b-Expensive'>Expensive</span><div class='bd'>Borderline: Fair / Expensive boundary (70.0 expensiveness pctl)</div></td><td class='src'>2021-03-31 → 2026-11-05 · n=1389 · median 0.86</td></tr>
+</table></div>
+<div class="note" style="margin-top:10px">Percentiles are relative to the baseline window only. Nifty 50 P/E, DY and all Midcap/Smallcap metrics start 31 Mar 2021; Nifty 50 P/B starts 29 Sep 2023 (NSE methodology breaks). The 2021 start came near post-2020 highs, so "Value" here means cheap versus 2021–2026, not versus long history. Bands: &lt;10 Deep Value · 10–30 Value · 30–70 Fair · 70–90 Expensive · &gt;90 Very Expensive; borderline = within 3 pts of an edge. Composite = median band of the three metrics.</div>
+<div class="interp"><b>What would change this view:</b> Nifty 50 moves to Fair if two of three metrics cross the 30th percentile — P/E above ~21.26 or P/B above ~3.38 (with DY already Fair at 1.33%). Smallcap 250 composite needs P/E below ~31.16 (70th pctl) or DY above 0.75% to move to Fair.</div>
+
+<h2>Liquidity</h2>
+<div class="tblw"><table>
+<tr><th>Component</th><th>Value</th><th>Score</th></tr>
+<tr><td>LAF surplus, avg of last 5 obs (₹ cr)</td><td class='num'>-29,725</td><td><span class="sc z">0</span></td></tr><tr><td>Net durable liquidity (₹ cr)</td><td class='num'>702,107</td><td><span class="sc p">+1</span></td></tr><tr><td>WACR − repo (bps)</td><td class='num'>26.0</td><td><span class="sc n">-1</span></td></tr>
+</table></div>
+<div class="card" style="margin-top:10px">
+<p style="margin:0">State <b>Neutral</b> (sum 0) · confidence High · threshold ±₹1,00,000 cr (₹1 lakh cr proxy; NDTL unavailable) · source: RBI "Money Market Operations as on November 26, 2026" (prid=64052) <span class="tg l">Last close · 26 Nov</span>; durable liquidity as on 31 Oct.</p>
+<p class="muted" style="margin:6px 0 0">Sign convention: RBI Section E shows injection as (+) and absorption as (−). The engine flips it: +₹62,687 cr injection = −₹62,687 cr system surplus (a deficit). SDF absorption that day was ₹1,42,009 cr; WACR 5.76% vs repo 5.50% (+26 bps).</p>
+</div>
+<div class="interp"><b>What would change this view:</b> Easy needs a sum of +2 — e.g. WACR back within 5 bps of repo and a 5-observation LAF surplus above ₹1 lakh cr. Tight needs −2 — e.g. the LAF average falling below −₹1 lakh cr while WACR stays ≥5 bps above repo.</div>
+
+<h2>Cycle clock</h2>
+<div class="grid"><div class='card'><div class='k'>Economic cycle</div><div class='big'>Expansion</div><div class='muted'>3 evidence items · confirmed</div><ul><li>Finance Ministry estimates Q2 FY27 GDP growth at 7.35% (NewsOnAir/Deccan Herald, Oct–Nov 2026)</li><li>SBI Research pegs Q2 FY27 GDP at 7.8%, GVA 8–8.2% (Devdiscourse, 18 Nov 2026)</li><li>Ind-Ra sees Q2 GDP at 7.6% led by investment (Upstox, 26 Nov 2026)</li></ul></div><div class='card'><div class='k'>Earnings cycle</div><div class='big'>Upgrade</div><div class='muted'>2 evidence items · confirmed</div><ul><li>Nifty Q2FY27 PAT +27% YoY vs MOFSL estimate 24%, strongest in 17 quarters (MOFSL, 16 Nov 2026)</li><li>MOFSL raised FY27 Nifty EPS 0.9% to ₹1,243 and FY28 1.4% to ₹1,427 (16 Nov 2026)</li></ul></div><div class='card'><div class='k'>Rate cycle</div><div class='big'>Tightening</div><div class='muted'>3 evidence items · confirmed</div><ul><li>RBI hiked repo 25 bps to 5.50% on 7 Oct 2026, first hike in ~3 years (Univest/Deccan Herald)</li><li>MPC stance &#x27;calibrated tightening&#x27;; next decision 4 Dec 2026 (Univest preview, 20 Nov 2026)</li><li>SBI Research retains call for a December hike (NewKerala, 2 Nov 2026)</li></ul></div><div class='card'><div class='k'>Credit cycle</div><div class='big'>Expansion</div><div class='muted'>2 evidence items · confirmed</div><ul><li>Bank credit ₹237.03 lakh cr, +19.26% YoY, fortnight to 31 Oct 2026 (RBI via Angel One)</li><li>Non-food bank credit +19.1% YoY at 30 Sep 2026 vs 11.2% a year earlier (RBI prid=63891)</li></ul></div><div class='card'><div class='k'>Market cycle</div><div class='big'>Mark-up</div><div class='muted'>2 evidence items · confirmed</div><ul><li>Nifty 50 25,607 is 6.7% above its 200-DMA and 15.2% above its 8 Oct 2026 low of 22,231.8 (NSE closes)</li><li>FII net cash buying ₹1.28 lakh cr MTD to 26 Nov over 18 sessions (Tapetide)</li></ul></div></div>
+<p class="muted">Only earnings, rate and credit phases feed the Category Compass; economic and market phases are shown for context.</p>
+
+<h2>Risk scorecard (15 signals)</h2>
+<div class="card">
+<div><b>NEUTRAL</b> (confirmed) · normalized +0.267 · raw +4 of 15 · coverage 15/15 · bounds [+0.267, +0.267] · robust · confidence High</div>
+<div class="bar"><div class="rng" style="left:63.3%;width:calc(63.3% - 63.3% + 2px)"></div><div class="dot" style="left:calc(63.3% - 2px)"></div></div>
+<div class="scale"><span style="left:0">−1 RISK-OFF</span><span style="left:33.5%">−0.33</span><span style="left:50%">0</span><span style="left:66.5%">+0.33</span><span style="left:100%">RISK-ON +1</span></div>
+</div>
+<div class="tblw" style="margin-top:10px"><table>
+<tr><th>Signal</th><th>Value</th><th>Basis</th><th>Rule</th><th>Score</th><th>Source</th></tr>
+<tr><td>India VIX (level)</td><td class='num'>16.55</td><td><span class="tg v">Verified</span></td><td class='thr'><13 → +1 · >18 → −1</td><td><span class="sc z">0</span></td><td class='src'>NSE index close file (bhavcopy) 16.55; NSE live feed 16.68</td></tr><tr><td>Nifty vs 50-DMA (%)</td><td class='num'>+8.23%</td><td><span class="tg v">Verified</span></td><td class='thr'>>+1% → +1 · <−1% → −1</td><td><span class="sc p">+1</span></td><td class='src'>Computed from NSE Nifty 50 closes: SMA50 23,660.17 vs close 25,607.20 (26 Nov cross-check vs sharpely within 0.15%)</td></tr><tr><td>Nifty vs 200-DMA (%)</td><td class='num'>+6.68%</td><td><span class="tg v">Verified</span></td><td class='thr'>>+2% → +1 · <−2% → −1</td><td><span class="sc p">+1</span></td><td class='src'>Computed from NSE Nifty 50 closes: SMA200 24,003.32 vs close 25,607.20</td></tr><tr><td>FII net cash, 5 sessions (₹ cr)</td><td class='num'>₹27,938 cr</td><td><span class="tg s">Single source</span></td><td class='thr'>>₹5,000 cr → +1 · <−₹5,000 cr → −1</td><td><span class="sc p">+1</span></td><td class='src'>NSE provisional: 20–26 Nov via Tapetide/InvestSights (agree); 27 Nov +1,634.33 InvestSights only</td></tr><tr><td>DII net cash, 5 sessions (₹ cr)</td><td class='num'>₹1,473 cr</td><td><span class="tg s">Single source</span></td><td class='thr'>>₹10,000 cr → +1 · <0 → −1</td><td><span class="sc z">0</span></td><td class='src'>NSE provisional: 20–26 Nov via Tapetide/InvestSights (agree); 27 Nov −556.42 InvestSights only</td></tr><tr><td>USD/INR 5-day change (%)</td><td class='num'>-0.36%</td><td><span class="tg v">Verified</span></td><td class='thr'><−0.5% → +1 · >+0.5% → −1</td><td><span class="sc z">0</span></td><td class='src'>PTI: 92.98 (27 Nov, Upstox/HDFC Sky/Telangana Today) vs 93.32 (19 Nov, ThePrint; HDFC Sky 93.36)</td></tr><tr><td>India 10Y yield 5-day change (bps)</td><td class='num'>+0.5 bps</td><td><span class="tg s">Single source</span></td><td class='thr'><−10 → +1 · >+10 → −1</td><td><span class="sc z">0</span></td><td class='src'>SquawkNews 7.2650% (27 Nov) vs countryeconomy 7.26% (19 Nov)</td></tr><tr><td>US VIX (level)</td><td class='num'>26.36</td><td><span class="tg s">Single source</span></td><td class='thr'><16 → +1 · >22 → −1</td><td><span class="sc n">-1</span></td><td class='src'>Wisevoter 27 Nov (−26.6% w/w)</td></tr><tr><td>DXY 5-day change (%)</td><td class='num'>+0.10%</td><td><span class="tg s">Single source</span></td><td class='thr'><−1% → +1 · >+1% → −1</td><td><span class="sc z">0</span></td><td class='src'>Wisevoter 103.71 (27 Nov; PTI intraday 103.77) vs PTI 103.61 (19 Nov)</td></tr><tr><td>Brent 5-day change (%)</td><td class='num'>+3.76%</td><td><span class="tg s">Single source</span></td><td class='thr'><−5% → +1 · >+5% → −1</td><td><span class="sc z">0</span></td><td class='src'>Settle $95.44 (27 Nov, Reuters via APA; The Circuitry) vs settle $91.98 (19 Nov, Jin10 via Longbridge)</td></tr><tr><td>Gold ($) 5-day change (%)</td><td class='num'>+0.92%</td><td><span class="tg s">Single source</span></td><td class='thr'><−3% → +1 · >+3% → −1</td><td><span class="sc z">0</span></td><td class='src'>Spot NY close $3,653.53 (27 Nov) vs $3,620.11 (19 Nov), both Longbridge</td></tr><tr><td>NSE advance/decline ratio</td><td class='num'>1.31</td><td><span class="tg s">Single source</span></td><td class='thr'>>1.5 → +1 · <0.67 → −1</td><td><span class="sc z">0</span></td><td class='src'>NSE bhavcopy breadth 27 Nov: 2,069 adv / 1,581 dec (mainboard EQ 1,520/1,046 = 1.45)</td></tr><tr><td>Global equities overnight (avg %)</td><td class='num'>+1.90%</td><td><span class="tg s">Single source</span></td><td class='thr'>>+0.5% → +1 · <−0.5% → −1</td><td><span class="sc p">+1</span></td><td class='src'>S&amp;P 500 +1.6% (27 Nov, N Globe; SPY +1.62%), Nikkei +2.0%, Hang Seng +2.1% (AP, 27 Nov)</td></tr><tr><td>Systemic liquidity state</td><td class='num'>Neutral</td><td><span class="tg l">RBI MMO as on 26 Nov</span></td><td class='thr'>Easy +1 · Neutral 0 · Tight −1</td><td><span class="sc z">0</span></td><td class='src'>Engine liquidity block (below)</td></tr><tr><td>Nifty 50 composite valuation band</td><td class='num'>Value</td><td><span class="tg v">Verified</span></td><td class='thr'>Deep Value/Value +1 · Fair 0 · Expensive/V.Exp −1</td><td><span class="sc p">+1</span></td><td class='src'>Engine valuation block (NSE P/E, P/B, DY, 27 Nov)</td></tr>
+</table></div>
+<div class="interp"><b>Interpretation:</b> Positive points come from trend (Nifty 8.2% above 50-DMA, 6.7% above 200-DMA), FII buying (+₹27,938 cr over 5 sessions), Value-band valuation and global equities (+1.9% average). US VIX at 26.36 is the only negative signal. The other nine sit inside their neutral bands.</div>
+<div class="interp"><b>What would change this view:</b> RISK-ON needs a normalized score ≥ +0.33 (raw +5): one more +1 — for example US VIX below 22, or India VIX below 13. RISK-OFF needs ≤ −0.33 (raw −5), a 9-point swing. Any change also needs two consecutive runs to confirm.</div>
+
+<h2>Category Compass</h2>
+<div class="tblw"><table>
+<tr><th>Category</th><th>View (confirmed)</th><th>Confidence</th><th>Evidence · score</th><th>Drivers</th></tr>
+<tr class='seg'><td colspan='5'>Equity</td></tr><tr><td>Large Cap</td><td><span class='cv cf'>Favourable</span></td><td>High</td><td class='num'>4/4 · +0.75</td><td class='src'>Nifty val +1, Risk verdict 0, Earnings cycle +1, FII flow +1</td></tr><tr><td>Mid Cap</td><td><span class='cv cg'>Lean Neutral</span></td><td>Low</td><td class='num'>4/4 · +0.25</td><td class='src'>Midcap val 0, Risk verdict 0, Earnings cycle +1, Breadth 0</td></tr><tr><td>Small Cap</td><td><span class='cv cn'>Neutral</span></td><td>Medium</td><td class='num'>4/4 · +0.00</td><td class='src'>Smallcap val -1, Risk verdict 0, Earnings cycle +1, Breadth 0</td></tr><tr><td>Large &amp; Mid Cap</td><td><span class='cv cf'>Favourable</span></td><td>Medium</td><td class='num'>4/4 · +0.50</td><td class='src'>Nifty val +1, Midcap val 0, Risk verdict 0, Earnings cycle +1</td></tr><tr><td>Flexi Cap</td><td><span class='cv cf'>Favourable</span></td><td>Medium</td><td class='num'>4/4 · +0.50</td><td class='src'>Nifty val +1, Midcap val 0, Risk verdict 0, Earnings cycle +1</td></tr><tr><td>Multi Cap</td><td><span class='cv cg'>Lean Neutral</span></td><td>Low</td><td class='num'>5/5 · +0.20</td><td class='src'>Nifty val +1, Midcap val 0, Smallcap val -1, Risk verdict 0, Earnings cycle +1</td></tr><tr><td>Focused</td><td><span class='cv cf'>Favourable</span></td><td>Medium</td><td class='num'>3/3 · +0.67</td><td class='src'>Nifty val +1, Risk verdict 0, Earnings cycle +1</td></tr><tr><td>Value / Contra</td><td><span class='cv cf'>Favourable</span></td><td>Medium</td><td class='num'>3/3 · +0.67</td><td class='src'>Nifty val +1, Midcap val 0, Earnings cycle +1</td></tr><tr><td>Dividend Yield</td><td><span class='cv cg'>Lean Neutral</span></td><td>Low</td><td class='num'>3/3 · +0.00</td><td class='src'>Nifty val +1, Rate cycle -1, Risk verdict 0</td></tr><tr><td>ELSS (3-yr lock-in)</td><td><span class='cv cf'>Favourable</span></td><td>Medium</td><td class='num'>4/4 · +0.50</td><td class='src'>Nifty val +1, Midcap val 0, Risk verdict 0, Earnings cycle +1</td></tr><tr class='seg'><td colspan='5'>Debt</td></tr><tr><td>Overnight / Liquid / Money Market</td><td><span class='cv cc'>Cautious</span></td><td>Medium</td><td class='num'>2/2 · -0.50</td><td class='src'>MM carry 0, Rate cycle -1</td></tr><tr><td>Ultra Short / Low Duration</td><td><span class='cv cg'>Lean Neutral</span></td><td>Low</td><td class='num'>3/3 · +0.00</td><td class='src'>MM carry 0, Rate cycle -1, Credit cycle +1</td></tr><tr><td>Short Duration</td><td><span class='cv cn'>Neutral</span></td><td>Medium</td><td class='num'>4/4 · +0.00</td><td class='src'>Rate cycle -1, Curve 0, Credit cycle +1, Liquidity 0</td></tr><tr><td>Corporate Bond / Banking &amp; PSU</td><td><span class='cv cn'>Neutral</span></td><td>Medium</td><td class='num'>4/4 · +0.00</td><td class='src'>Rate cycle -1, Curve 0, Credit cycle +1, Liquidity 0</td></tr><tr><td>Dynamic Bond</td><td><span class='cv cc'>Cautious</span><div class='chg'>Changed today (confirmed)</div></td><td>Medium</td><td class='num'>4/4 · -0.50</td><td class='src'>Rate cycle -1, CPI driver -1, 10Y move 0, Curve 0</td></tr><tr><td>Medium / Long Duration</td><td><span class='cv cc'>Cautious</span><div class='chg'>Changed today (confirmed)</div></td><td>Medium</td><td class='num'>4/4 · -0.50</td><td class='src'>Rate cycle -1, CPI driver -1, 10Y move 0, Liquidity 0</td></tr><tr><td>Gilt / Gilt 10Y Constant Maturity</td><td><span class='cv cc'>Cautious</span><div class='chg'>Changed today (confirmed)</div></td><td>Medium</td><td class='num'>4/4 · -0.50</td><td class='src'>Rate cycle -1, CPI driver -1, 10Y move 0, Liquidity 0</td></tr><tr><td>Target Maturity</td><td><span class='cv cc'>Cautious</span><div class='chg'>Changed today (confirmed)</div></td><td>Medium</td><td class='num'>3/3 · -0.67</td><td class='src'>Rate cycle -1, CPI driver -1, 10Y move 0</td></tr><tr><td>Credit Risk</td><td><span class='cv cn'>Neutral</span></td><td>Medium</td><td class='num'>3/3 · +0.00</td><td class='src'>Credit cycle +1, Liquidity 0, Risk verdict 0</td></tr><tr class='seg'><td colspan='5'>Hybrid</td></tr><tr><td>Arbitrage</td><td><span class='cv cc'>Cautious</span></td><td>Medium</td><td class='num'>2/2 · -0.50</td><td class='src'>MM carry 0, Rate cycle -1</td></tr><tr><td>Balanced Advantage / DAA</td><td><span class='cv cc'>Cautious</span></td><td>Medium</td><td class='num'>1/1 · -0.50</td><td class='src'>Val+risk (inv.) -0.5</td></tr><tr><td>Aggressive Hybrid</td><td><span class='cv cn'>Neutral</span></td><td>Medium</td><td class='num'>4/4 · +0.25</td><td class='src'>Nifty val +1, Risk verdict 0, Earnings cycle +1, Rate cycle -1</td></tr><tr><td>Conservative Hybrid</td><td><span class='cv cn'>Neutral</span><div class='chg'>Changed today (confirmed)</div></td><td>Medium</td><td class='num'>4/4 · -0.25</td><td class='src'>Rate cycle -1, CPI driver -1, 10Y move 0, Nifty val +1</td></tr><tr><td>Equity Savings</td><td><span class='cv cg'>Lean Neutral</span></td><td>Low</td><td class='num'>3/3 · +0.00</td><td class='src'>MM carry 0, Nifty val +1, Rate cycle -1</td></tr><tr><td>Multi-Asset Allocation</td><td><span class='cv cc'>Cautious</span></td><td>Medium</td><td class='num'>3/3 · -0.50</td><td class='src'>Val+risk (inv.) -0.5, Gold (inv.) 0, Rate cycle -1</td></tr><tr class='seg'><td colspan='5'>Solution Oriented</td></tr><tr><td>Retirement (5-yr lock-in)</td><td><span class='cv cn'>Neutral</span></td><td>Medium</td><td class='num'>4/4 · +0.25</td><td class='src'>Nifty val +1, Risk verdict 0, Earnings cycle +1, Rate cycle -1</td></tr><tr><td>Children&#x27;s (5-yr lock-in)</td><td><span class='cv cn'>Neutral</span></td><td>Medium</td><td class='num'>4/4 · +0.25</td><td class='src'>Nifty val +1, Risk verdict 0, Earnings cycle +1, Rate cycle -1</td></tr><tr class='seg'><td colspan='5'>Others</td></tr><tr><td>Index - Nifty 50</td><td><span class='cv cf'>Favourable</span></td><td>Medium</td><td class='num'>3/3 · +0.67</td><td class='src'>Nifty val +1, Risk verdict 0, Earnings cycle +1</td></tr><tr><td>Index - Nifty Next 50 / Midcap</td><td><span class='cv cg'>Lean Neutral</span><div class='pend'>Today: Neutral (pending, needs 1 more run)</div></td><td>High</td><td class='num'>3/3 · +0.00</td><td class='src'>Midcap val 0, Risk verdict 0, Breadth 0</td></tr><tr><td>Gold / Silver ETF &amp; FoF</td><td><span class='cv cg'>Lean Neutral</span><div class='pend'>Today: Neutral (pending, needs 1 more run)</div></td><td>High</td><td class='num'>3/3 · +0.00</td><td class='src'>Gold (inv.) 0, DXY 0, Risk (inv.) 0</td></tr><tr><td>International FoF</td><td><span class='cv cg'>Not scored</span></td><td>n/a</td><td class='num'>0/0</td><td class='src'>—</td></tr><tr><td>Sectoral / Thematic</td><td><span class='cv cg'>Not scored</span></td><td>n/a</td><td class='num'>0/0</td><td class='src'>—</td></tr>
+</table></div>
+<div class="note" style="margin-top:10px"><b>Core-satellite (High-confidence views only):</b> Large Cap is the only High-confidence Favourable view today. For investors with a 5+ year horizon, this rule set supports keeping large-cap exposure as the core of the equity allocation; it does not give a High-confidence tilt for mid, small, debt-duration or hybrid categories.</div>
+<p class="muted">Category views are general, educational and rule-based; confidence reflects how many inputs were available and whether they agree. They are not personal recommendations. Suitability depends on each investor's goals, horizon and risk profile — please consult your distributor/advisor before investing.</p>
+
+<h2>Mutual fund industry</h2>
+<div class="card"><ul>
+<li>AMFI, October 2026: total net inflow ₹1,74,218.73 cr (September: outflow ₹1,33,214.25 cr). Equity net inflow ₹32,993.64 cr, down ~13.9% from ₹38,306.55 cr. Debt net inflow ₹1,13,437.89 cr. Industry AUM ₹83.39 lakh cr. (<a href="https://www.5paisa.com/blog/mutual-fund-inflows-rebound-october-2026">5paisa / AMFI</a>)</li>
+<li>Category flows, Oct: Large &amp; Mid Cap ₹8,484.23 cr (top), Small Cap ₹6,407.50 cr (Sep ₹9,038.57 cr), Flexi Cap ₹4,979.95 cr, Mid Cap ₹4,892.62 cr.</li>
+<li>SEBI circular (5 Nov 2026): MF schemes may net-settle outright cash-market buy/sell obligations within a settlement cycle from 1 Apr 2027; securities still settle gross; netting only within a single scheme. (<a href="https://www.moneylife.in/article/sebi-allows-net-settlement-of-funds-for-mutual-fund-schemes-from-april-2027-to-reduce-funding-requirements/82137.html">Moneylife</a>)</li>
+<li>Institutional flows, November to 26 Nov (18 sessions): FII +₹1,27,945 cr; DII −₹54,898 cr (<a href="https://tapetide.com/insight/reports/fii-dii-flows/2026-11">Tapetide</a>).</li>
+<li>NFOs: not sourced in this run.</li>
+</ul></div>
+
+<h2>Indian economy &amp; policy</h2>
+<div class="card"><ul>
+<li>RBI repo 5.50% after a 25 bps hike on 7 Oct 2026; stance "calibrated tightening". MPC meets 2–4 Dec, decision 4 Dec (<a href="https://univest.in/blogs/rbi-policy-december-2026-preview">Univest</a>). SBI Research retains a December-hike call (<a href="https://www.newkerala.com/news/a/sbi-research-retains-call-50-bps-december-rate-hike-889.htm">NewKerala</a>).</li>
+<li>CPI inflation October 2026: 6.09% (September 5.54%) — above the 6% upper tolerance band.</li>
+<li>Q2 FY27 GDP estimates ahead of the official release: Finance Ministry 7.35%, Ind-Ra 7.6%, SBI Research 7.8%.</li>
+<li>Bank credit ₹237.03 lakh cr, +19.26% YoY (fortnight to 31 Oct); deposits ₹288.16 lakh cr, +16.76% (<a href="https://www.angelone.in/news/economy/bank-credit-rises-to-237-03-lakh-crore-deposits-reach-288-16-lakh-crore-rbi">RBI via Angel One</a>).</li>
+<li>Q2FY27 earnings: Nifty PAT +27% YoY vs 24% estimated; FY27 Nifty EPS raised 0.9% to ₹1,243 (<a href="https://investmentguruindia.com/newsdetail/india-strategy-review-2qfy27-earnings-in-full-flight-broad-based-beats-stronger-momentum-by-motilal-oswal-financial-services-ltd651447">MOFSL</a>).</li>
+</ul></div>
+
+<h2>Personal finance</h2>
+<div class="card"><ul>
+<li>SIP contributions were ₹32,160 cr in October (₹29,529 cr a year earlier, +8.9%); SIP accounts 999.87 lakh — close to the 10 crore mark.</li>
+<li>Repo is 5.50% after October's hike and the next decision is on 4 Dec. Floating-rate borrowers linked to repo may see EMI or tenure changes if the rate moves again; check your lender's reset date.</li>
+<li>Debt-fund investors: duration categories (Dynamic Bond, Medium/Long, Gilt, Target Maturity) turned Cautious in this rule set today. Holding period and goal date matter more than a single reading — review with your distributor before switching.</li>
+</ul></div>
+
+<h2>Watchlist (IST)</h2>
+<div class="tblw"><table>
+<tr><th>When</th><th>Event</th></tr>
+<tr><td>Sun, 29 Nov</td><td>OPEC+ meeting on Q1 output</td></tr>
+<tr><td>Mon, 30 Nov · 09:15–15:30</td><td>NSE session; first reaction to OPEC+ and US Black Friday rally</td></tr>
+<tr><td>Date to confirm</td><td>MoSPI Q2 FY27 GDP release (estimates 7.35–7.8%)</td></tr>
+<tr><td>Wed, 2 Dec</td><td>RBI 91/182/364-day T-bill auction (notified 27 Nov)</td></tr>
+<tr><td>Wed 2 – Fri 4 Dec</td><td>RBI MPC; decision Fri, 4 Dec</td></tr>
+<tr><td>Daily</td><td>RBI Money Market Operations release (liquidity input)</td></tr>
+</table></div>
+
+<h2>Methodology</h2>
+<div class="card" style="font-size:13px">
+<p style="margin-top:0">Deterministic engine v1.1. Data are gathered and labelled; the engine does all scoring. No score, band or view is adjusted by hand.</p>
+<ul>
+<li><b>Risk:</b> 15 signals, each +1/0/−1 (rules in the scorecard). Normalized = sum ÷ scored. RISK-ON ≥ +0.33, RISK-OFF ≤ −0.33. Verdict withheld below 60% coverage; confidence Low below 80% or if best/worst-case bounds disagree.</li>
+<li><b>Liquidity:</b> LAF surplus (5-obs average), net durable liquidity, WACR − repo (±5 bps). Threshold 1% of NDTL, else ₹1 lakh cr. Sum ≥2 Easy, ≤−2 Tight.</li>
+<li><b>Valuation:</b> percentile vs NSE baseline (≥750 obs, single methodology). Bands at 10/30/70/90; DY inverted. Nifty 50 P/E &amp; DY baseline 31 Mar 2021–5 Nov 2026 (n=1,389); P/B 29 Sep 2023–5 Nov 2026 (n=769); Midcap 150 and Smallcap 250 31 Mar 2021–5 Nov 2026 (n=1,389). Source: niftyindices.com export.</li>
+<li><b>Cycles:</b> a phase counts only with ≥2 sourced evidence items.</li>
+<li><b>Category Compass:</b> mean of driver scores; ≥ +0.34 Favourable, ≤ −0.34 Cautious; Credit Risk capped at Neutral. Low confidence → "Lean". Every state change needs two consecutive runs.</li>
+<li><b>Macro drivers:</b> CPI −1 (6.09% &gt; 4% and rising); curve 0 (10Y 7.265% − 364-day T-bill 6.6387% = 62.6 bps; +1 above 75, −1 below 25).</li>
+<li><b>Last-close fallback:</b> each input uses, in order, verified (official or two agreeing sources), single source, or the most recent sourced close within 5 sessions (latest release for weekly/monthly series). Values are never estimated, interpolated or rolled forward. 5-day changes use two sourced closes (27 Nov vs 19 Nov).</li>
+</ul>
+</div>
+
+<h2>Sources</h2>
+<div class="card" style="font-size:12.5px"><ul>
+<li>NSE index close file and breadth via NSE Bhavcopy data service; NSE live market wrap (27 Nov 2026, 15:30 IST)</li>
+<li><a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64052">RBI — Money Market Operations as on November 26, 2026</a>; <a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64039">RBI — T-bill auction result 25 Nov</a>; <a href="https://rbi.org.in/scriptS/BS_PressReleaseDisplay.aspx?prid=63891">RBI — Sectoral deployment of bank credit, Sep 2026</a></li>
+<li><a href="https://upstox.com/news/market-news/latest-updates/rupee-vs-dollar-nov-27-local-currency-nosedives-60-paise-to-settle-at-92-98-against-us-dollar/article-204106/">Upstox/PTI — rupee 27 Nov</a>; <a href="https://theprint.in/economy/rupee-rallies-for-4th-session-to-close-9-paise-higher-at-93-32-against-us-dollar/3103570/">ThePrint/PTI — rupee 19 Nov</a>; <a href="https://hdfcsky.com/news/rupee-rallies-for-4th-session-to-close-5-paise-higher-at-93-36-against-us-dollar">HDFC Sky — rupee 19 Nov</a></li>
+<li><a href="https://squawknews.com/news/989394-india-10-year-benchmark-bond-yield-ends-at-7-2650">SquawkNews — India 10Y 27 Nov</a>; <a href="https://countryeconomy.com/bonds/india">countryeconomy — India 10Y history</a></li>
+<li><a href="https://nglobenews.com/en/article/us-stocks-black-friday-close-best-week-2026-11-27">N Globe — US close 27 Nov</a>; <a href="https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026">StockTitan</a>; <a href="https://www.click2houston.com/business/2026/11/27/asian-shares-mostly-rise-ahead-of-wall-streets-reopening-after-thanksgiving/">AP — Asian shares 27 Nov</a></li>
+<li><a href="https://wisevoter.com/world/us/2026/11/27/vix-falls-macro-index-rises-risk-assets">Wisevoter — VIX, DXY 27 Nov</a></li>
+<li><a href="https://en.apa.az/energy-and-industry/oil-notches-first-weekly-gain-in-november-on-supply-fears-539023">Reuters via APA — oil 27 Nov</a>; <a href="https://thecircuitry.to/article/brent-settles-friday-at-9544-and-wti-at-8308-mwzhz7en">The Circuitry — Brent settle</a>; <a href="https://longbridge.com/en/news/306167912">Longbridge/Jin10 — Brent settle 19 Nov</a></li>
+<li><a href="https://longbridge.com/en/news/307064405">Longbridge — gold 27 Nov</a>; <a href="https://longbridge.com/en/news/306179077">Longbridge — gold 19 Nov</a>; <a href="https://financefeeds.com/gold-price-today-3650-friday-rebound-from-15-month-low-silver-up-6-percent-bull-3742-bear-3567/">FinanceFeeds — gold/silver</a></li>
+<li>InvestSights FII/DII activity (27 Nov); <a href="https://tapetide.com/insight/reports/fii-dii-flows/2026-11">Tapetide — FII/DII November</a></li>
+<li><a href="https://www.5paisa.com/blog/mutual-fund-inflows-rebound-october-2026">5paisa — AMFI October 2026</a>; <a href="https://www.moneylife.in/article/sebi-allows-net-settlement-of-funds-for-mutual-fund-schemes-from-april-2027-to-reduce-funding-requirements/82137.html">Moneylife — SEBI net settlement</a></li>
+<li><a href="https://univest.in/blogs/rbi-policy-december-2026-preview">Univest — RBI December preview</a>; <a href="https://www.newkerala.com/news/a/sbi-research-retains-call-50-bps-december-rate-hike-889.htm">NewKerala — SBI Research</a>; <a href="https://www.devdiscourse.com/article/business/4005076-indias-q2-fy27-gdp-growth-pegged-at-78-gva-growth-seen-at-8-82-sbi-research">Devdiscourse — SBI GDP estimate</a>; <a href="https://upstox.com/news/business-news/economy/india-s-gdp-growth-seen-at-7-6-in-q2-led-by-investments-ind-ra/article-204039/">Upstox — Ind-Ra</a>; <a href="https://newsonair.gov.in/indias-economy-projected-to-grow-7-35-in-q2-fy27/">NewsOnAir — FinMin estimate</a></li>
+<li><a href="https://www.angelone.in/news/economy/bank-credit-rises-to-237-03-lakh-crore-deposits-reach-288-16-lakh-crore-rbi">Angel One — bank credit</a>; <a href="https://investmentguruindia.com/newsdetail/india-strategy-review-2qfy27-earnings-in-full-flight-broad-based-beats-stronger-momentum-by-motilal-oswal-financial-services-ltd651447">MOFSL — 2QFY27 review</a></li>
+</ul></div>
+
+<footer>
+<p><b>Mutual fund investments are subject to market risks, read all scheme related documents carefully. This briefing is for information and education only and is not investment advice. Past performance may not be sustained in future.</b></p>
+<p>Ritesh Sheth CWM® · ARN-0209, AMFI REGISTERED MUTUAL FUND &amp; SIF DISTRIBUTOR · MY FUND GUIDE Ai™ · myfundguide.com · Rule-based engine v1.1</p>
+</footer>
+</div>
+</body>
+</html>
